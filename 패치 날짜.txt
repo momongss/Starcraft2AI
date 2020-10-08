@@ -1,0 +1,15 @@
+
+4.11.0 : 2019/11/26
+4.10.0 : 2019/08/13
+
+5.22 6.4
+
+4.10.0 : 8/14 ~ 11/26
+August ~ November
+
+fd8898dbe586fa967760980debcad0ce20610fb447cd0697c109d4ebf7d1d5cf.s2ma
+fd8898dbe586fa967760980debcad0ce20610fb447cd0697c109d4ebf7d1d5cf.s2ma
+
+/home/ubuntu/StarCraftII/Replays
+
+/home/ubuntu/capstone_design/ORG_ReplayData/Replays

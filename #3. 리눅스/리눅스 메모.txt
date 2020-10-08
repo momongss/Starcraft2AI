@@ -1,0 +1,32 @@
+(1)
+putty : !nipa!@#    nipa
+ssh ubuntu@14.49.45.92 -p16022
+biglab304&
+(2)
+3793
+
+220.67.133.154
+6304
+
+(2)
+ssh capstone@220.67.133.108
+!capstone!@#
+
+nipa
+
+ssh ubuntu@14.49.45.92 -p 16022
+
+tensorflow 3.6 1.14
+
+
+/home/ubuntu/capstone_design/github_works/STARCRAFT2_pysc2/REPLAY
+source activate 메뉴얼 : anaconda ENV
+
+source activate tensorflow_p36
+python -m pysc2.bin.play
+
+cd capstone_design
+
+xrdp. . . .
+
+GUI. . . 목요일. 아

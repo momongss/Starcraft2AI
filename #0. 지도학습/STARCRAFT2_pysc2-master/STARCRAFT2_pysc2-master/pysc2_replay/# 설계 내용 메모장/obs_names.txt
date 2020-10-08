@@ -1,0 +1,21 @@
+all observation :
+{'single_select':
+ 'multi_select':
+ 'build_queue':
+ 'cargo':
+ 'production_queue':
+ 'last_actions':
+ 'cargo_slots_available':
+ 'home_race_requested':
+ 'away_race_requested':
+ 'map_name':
+ 'feature_screen':
+ 'feature_minimap':
+ 'action_result':
+ 'alerts':
+ 'game_loop':
+ 'score_cumulative':
+ 'player':
+ 'control_groups':
+ 'upgrades':
+ 'available_actions':

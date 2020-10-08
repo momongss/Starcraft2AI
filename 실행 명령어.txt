@@ -1,0 +1,7 @@
+python -m pysc2.bin.agent --map Simple64 --agent pysc2.agents.model_agent.ModelAgent
+
+python -m pysc2.bin.agent --map Simple64
+
+python -m pysc2.bin.agent --map CatalystLE
+python -m pysc2.bin.agent --map BattleontheBoardwalk
+python -m pysc2.bin.agent --map NeonVioletSquare

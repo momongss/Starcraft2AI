@@ -1,0 +1,4 @@
+cd C:\Users\rkrp1\Desktop\종합설계\pysc2-master
+
+python -m pysc2.bin.agent --map Simple64 --agent pysc2.agents.random_agent.RandomAgent
+python -m pysc2.bin.agent --map Simple64 --agent pysc2.agents.model_agent.ModelAgent

@@ -1,0 +1,55 @@
+@@ feature_units .
+
+ feature_units 가 feature_screen 을 대신함.
+  현재화면에 존재하는
+  - 유닛의 x, y좌표
+  - selected 되었는지
+  - 에너지, 쉴드, 체력
+  - 적인지 아군인지 (alliance)
+  - 업그레이드 등등..
+
+# Entity Encoder
+
+ Input : entity_list => feature_units
+ Ouputs :
+        embedded_entity
+        entity_embeddings
+
+ 특징 : entity_list(feature_units)는 최대 512개 이고 이를 넘어서면 무시된다.
+
+ entity_list    -->     transformer(3 layers, 2-headed self-attention)
+                -->     self-attention head 의 keys, queries, values 중 values(128)
+                -->     values(128) 이  conv1D(kernel size 1, 256 channels)로 입력
+                -->     values or 다른 출력의 합 이 MLP(2 layer, hidden size 1024, output 256)으로
+                        : transformer 출력 : 256 1D tensor
+                -->     ReLU, conv1D(kernel 1, channels 256), ReLU : 'entity_embeddings' ( 256, entity의 개수 딩)
+                -->     transformer 출력의 평균 ... 뭐시기.. 256 linear, ReLU : 'embedded_entity'
+
+# Spatial Encoder
+
+ Inputs : map, entity_embeddings
+
+  entity_embeddings --> scattered_entites (32 channel, 1d conv) ==> 32개 output.
+  if entity_embeddings의 입력 : 64 --> stride : 2 => output : 32개. (각 entity 마다.)
+  : entity_embeddings 의 크기, shape 는 무엇인가??
+  scattered_entities : (32, entity의 개수)
+  ==> 그 외 : feature_minimaps.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

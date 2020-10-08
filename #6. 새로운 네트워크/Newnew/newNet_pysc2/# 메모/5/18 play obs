@@ -1,0 +1,21 @@
+single_select (0, 7) <class 'numpy.ndarray'>
+multi_select (13, 7) <class 'pysc2.lib.named_array.NamedNumpyArray'>
+build_queue (0, 7) <class 'numpy.ndarray'>
+cargo (0, 7) <class 'numpy.ndarray'>
+production_queue (0, 2) <class 'numpy.ndarray'>
+last_actions (1,) <class 'numpy.ndarray'>
+cargo_slots_available (1,) <class 'numpy.ndarray'>
+home_race_requested (1,) <class 'numpy.ndarray'>
+away_race_requested (1,) <class 'numpy.ndarray'>
+feature_screen (27, 84, 84) <class 'pysc2.lib.named_array.NamedNumpyArray'>
+feature_minimap (11, 64, 64) <class 'pysc2.lib.named_array.NamedNumpyArray'>
+action_result (0,) <class 'numpy.ndarray'>
+alerts (0,) <class 'numpy.ndarray'>
+game_loop (1,) <class 'numpy.ndarray'>
+score_cumulative (13,) <class 'pysc2.lib.named_array.NamedNumpyArray'>
+score_by_category (11, 5) <class 'pysc2.lib.named_array.NamedNumpyArray'>
+score_by_vital (3, 3) <class 'pysc2.lib.named_array.NamedNumpyArray'>
+player (11,) <class 'pysc2.lib.named_array.NamedNumpyArray'>
+control_groups (10, 2) <class 'numpy.ndarray'>
+upgrades (0,) <class 'numpy.ndarray'>
+available_actions (23,) <class 'numpy.ndarray'>

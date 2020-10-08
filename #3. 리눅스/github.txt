@@ -1,0 +1,8 @@
+sudo git config --global user.name "momongss"
+sudo git config --global user.email "rkrp15@gmail.com"
+
+sudo git config --global color.ui "auto"
+mkdir github_works
+
+https://github.com/momongss/STARCRAFT2_pysc2.git
+sudo git remote add origin https://github.com/momongss/STARCRAFT2_pysc2.git

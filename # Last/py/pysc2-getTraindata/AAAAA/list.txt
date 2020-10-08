@@ -1,0 +1,27 @@
+1 [[117, 102]]
+2 [[0], [54, 48]]
+3 [[0], [55, 48], [87, 80]]
+7 [[0]]
+13 [[0], [13, 14]]
+42 [[0], [28, 58]]
+91 [[0], [78, 24]]
+451 [[1], [89, 69]]
+477 [[0]]
+490 [[0]]
+
+    if action_id == 2 or action_id == 13 or action_id == 42 or action_id == 91 or action_id == 451:
+        screen_x1 = np.zeros((1, 128))
+        screen_x1 = np.zeros((1, 128))
+        screen_x1[args[1][0]] = 1
+        screen_y1[args[1][1]] = 1
+    elif action_id == 3:
+        screen_x1 = np.zeros((1, 128))
+        screen_y1 = np.zeros((1, 128))
+        screen_x1[args[1][0]] = 1
+        screen_y1[args[1][1]] = 1
+        screen_x2 = np.zeros((1, 128))
+        screen_y2 = np.zeros((1, 128))
+        screen_x2[args[2][0]] = 1
+        screen_y2[args[2][1]] = 1
+    elif action_id == 7 or action_id == 477 or action_id == 490:
+        pass

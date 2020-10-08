@@ -1,0 +1,6 @@
+
+환경 위치 : env 폴더 - run_loop 파일 - run_loop 메소드(env.run_loop)
+env 리셋 => 변경된 환경을 timesteps로 받음
+timesteps => agent.step으로 전달 => 에이전트가 actions 결정 => env에 actions 전달해서 반영 (반복)
+
+에이전트 위치 : agents 폴더 - xxx_agent(현재는 terran_agent 작업중) (agents.XXX_agent)

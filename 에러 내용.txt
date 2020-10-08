@@ -1,0 +1,14 @@
+File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/tensorflow_core/python/keras/engine/training_arrays.py", line 394, in model_iteration
+    batch_outs = f(ins_batch)
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/tensorflow_core/python/keras/backend.py", line 3476, in __call__
+    run_metadata=self.run_metadata)
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1472, in __call__
+    run_metadata_ptr)
+tensorflow.python.framework.errors_impl.UnknownError: 2 root error(s) found.
+  (0) Unknown: Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+         [[{{node conv2d/Conv2D}}]]
+         [[control_group_id/Softmax/_1061]]
+  (1) Unknown: Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+         [[{{node conv2d/Conv2D}}]]
+0 successful operations.
+0 derived errors ignored.

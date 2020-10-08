@@ -1,0 +1,2 @@
+python -m pysc2.bin.play;
+python -m pysc2.bin.play --rgb_screen_size 0;

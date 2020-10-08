@@ -1,0 +1,7 @@
+cpu : top
+
+https://ironmask.net/355
+
+gpu : nvidia-smi -l 1
+
+https://blog.naver.com/PostView.nhn?blogId=ossiriand&logNo=221341431090&parentCategoryNo=&categoryNo=35&viewDate=&isShowPopularPosts=true&from=search
