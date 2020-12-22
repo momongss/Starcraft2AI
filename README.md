@@ -1,10 +1,10 @@
 # Starcraft2AI
 
 ### 사용한 프레임워크
-pysc2 스타크래프트2 학습환경
+<a href="https://github.com/deepmind/pysc2">pysc2</a> : 스타크래프트2 학습환경
 
 ### 사용한 라이브러리
-tensorflow
+<a href="https://www.tensorflow.org/?hl=ko">tensorflow</a>
 
 ### 요약
 - 딥마인드의 알파스타 논문을 보며 따라하려고 했지만 네트워크 크기가 너무 커 훈련이 잘 안되어서 실패.
